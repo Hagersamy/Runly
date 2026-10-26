@@ -14,4 +14,11 @@
     <string name="location_rationale">location rationale</string>
     <string name="okay">okay</string>
     <string name="notification_rationale">notification rationale</string>
+    <string name="run_map">Run Map</string>
+    <string name="error_couldnt_load_image">error couldnt load image</string>
+    <string name="total_running_time">Total running time</string>
+    <string name="avg_speed">avg speed</string>
+    <string name="max_speed">max speed</string>
+    <string name="total_elevation">total elevation</string>
+    <string name="delete">Delete</string>
 </resources>

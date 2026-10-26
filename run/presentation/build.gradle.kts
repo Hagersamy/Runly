@@ -30,6 +30,7 @@ dependencies {
     implementation(libs.androidx.compose.runtime)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -40,10 +41,12 @@ dependencies {
     implementation(libs.timber)
     implementation(platform(libs.koin.bom))
     implementation(libs.koin.androidx.compose)
+    implementation(libs.coil.compose)
 
 
     implementation(project(":core:designsystem"))
     implementation(project(":core:presentation"))
     implementation(project(":run:domain"))
     implementation(project(":core:domain"))
+    debugImplementation(libs.androidx.ui.tooling)
 }
