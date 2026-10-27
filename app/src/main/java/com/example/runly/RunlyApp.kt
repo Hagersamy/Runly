@@ -4,6 +4,7 @@ import android.app.Application
 import com.runly.auth.data.di.authDataModule
 import com.runly.auth.presentation.di.authPresentationModule
 import com.runly.core.data.di.coreDataModule
+import com.runly.core.database.di.databaseModule
 import com.runly.run.location.di.locationModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
@@ -26,7 +27,8 @@ class RunlyApp: Application() {
                 authDataModule,
                 authPresentationModule,
                 coreDataModule,
-                locationModule
+                locationModule,
+                databaseModule
             )
         }
     }
